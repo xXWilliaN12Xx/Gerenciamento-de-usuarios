@@ -12,4 +12,4 @@ const databaseConnection = async () => {
   }
 };
 
-export default databaseConnection; // Exporta a função databaseConnection.
+export default databaseConnection; // Exporta a função databaseConnection
