@@ -100,10 +100,22 @@ Utilize ferramentas como Postman ou cURL para testar as rotas da API:
 
 Para parar a aplicação, pressione Ctrl + C no terminal onde o servidor está em execução.
 
-## Contribuição
+#
+
+<div align="center">
+
+### Contribuição
 Se você deseja contribuir para este projeto, sinta-se à vontade para enviar um pull request ou abrir uma issue com sugestões e melhorias.
 
+</div>
 
+<div align="center">
+
+### Imagem de ilustração do deploy.
+
+![Captura de tela 2024-08-02 171414](https://github.com/user-attachments/assets/b5a7cb96-9741-4b3d-9864-e18e9f387568)
+
+</div>
 
 
 
