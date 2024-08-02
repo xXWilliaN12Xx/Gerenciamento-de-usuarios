@@ -43,19 +43,77 @@
 
 #
 
-### Instalação
 
-1. Clone o repositório:
+## Pré-requisitos
 
-   ```bash
-   git clone <URL_DO_REPOSITORIO>
+### Antes de começar, certifique-se de ter os seguintes itens instalados:
 
-#
-   
-<div align="center">
+- **Node.js**: [Instale o Node.js](https://nodejs.org/) (Verifique a versão instalada com `node -v`).
+- **Git**: [Instale o Git](https://git-scm.com/) (Verifique a versão instalada com `git --version`).
+- **MongoDB**: Configure uma instância do MongoDB localmente ou utilize um serviço gerenciado como [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
 
-### Imagem de ilustração do deploy.
+## Instruções para Rodar a Aplicação
 
-![Captura de tela 2024-08-02 171414](https://github.com/user-attachments/assets/b5a7cb96-9741-4b3d-9864-e18e9f387568)
+### 1. Clone a base do Repositório
 
-</div>
+Clone o repositório do projeto para o seu ambiente local:
+
+```bash
+git clone <URL_DO_REPOSITORIO>
+cd <DIRETORIO_DO_PROJETO>
+
+```
+### 2. Instalar dependencias
+
+Instale as dependências do projeto usando npm:
+
+```bash
+npm install
+```
+
+### 3. Configurar variáveis ambiente
+
+Crie um arquivo .env na raiz do projeto e adicione as variáveis de ambiente necessárias. Um exemplo de configuração pode ser:
+
+```bash
+DATABASE_URI=mongodb://username:password@host:port/database
+```
+Substitua username, password, host, port, e database com as informações do seu banco de dados MongoDB.
+
+### 4.Executar a Aplicação
+Inicie a aplicação com o comando:
+
+```bash
+npm run dev
+```
+
+### 5. Testar a Aplicação
+
+Utilize ferramentas como Postman ou cURL para testar as rotas da API:
+
+- Listar Usuários: GET localhost:3000/user
+- Criar Usuário: POST localhost:3000/user com um corpo JSON contendo name e email
+- Atualizar Usuário: PUT localhost:3000/user/:userId com um corpo JSON contendo os campos a serem atualizados
+- Deletar Usuário: DELETE localhost:3000/user/:userId
+
+### 6. Parar a Aplicação
+
+Para parar a aplicação, pressione Ctrl + C no terminal onde o servidor está em execução.
+
+## Contribuição
+Se você deseja contribuir para este projeto, sinta-se à vontade para enviar um pull request ou abrir uma issue com sugestões e melhorias.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
