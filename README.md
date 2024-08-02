@@ -1,6 +1,7 @@
 <div align="center">
 
-# Projeto de Gerenciamento de Usuários (CREATE | READ | UPDATE | DELETE)
+# Projeto de Gerenciamento de Usuários 
+## (CREATE | READ | UPDATE | DELETE)
 
 </div>
 
@@ -17,9 +18,9 @@ Este projeto é uma aplicação de gerenciamento de usuários construído com **
 
 | Tecnologia  | Link      | Descrição                           |
 | :---------------- | :--------- | :---------------------------------- |
-| **Express** | `Introdução ao JavaScript: Variaveis` | Framework para Node.js que facilita a criação do servidor e das rotas. |
-| **Mongoose** | `Introdução ao JavaScript: Variaveis` | Biblioteca para modelar objetos MongoDB e simplificar a interação com o banco de dados. |
-| **MongoDB** | `Introdução ao JavaScript: Variaveis` | Banco de dados NoSQL usado para armazenar os dados dos usuários. |
+| **Express** | [Express](https://expressjs.com/pt-br/) | Framework para Node.js que facilita a criação do servidor e das rotas. |
+| **Mongoose** | [Mongoose](https://mongoosejs.com/) | Biblioteca para modelar objetos MongoDB e simplificar a interação com o banco de dados. |
+| **MongoDB** | [MongoDB](https://www.mongodb.com/)| Banco de dados NoSQL usado para armazenar os dados dos usuários. |
 
 ## Estrutura do Projeto
 
@@ -34,3 +35,8 @@ Este projeto é uma aplicação de gerenciamento de usuários construído com **
 
    ```bash
    git clone <URL_DO_REPOSITORIO>
+<div align="center">
+
+![Captura de tela 2024-08-02 171414](https://github.com/user-attachments/assets/b5a7cb96-9741-4b3d-9864-e18e9f387568)
+
+</div>
